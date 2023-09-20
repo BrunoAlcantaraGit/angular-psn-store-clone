@@ -1,0 +1,48 @@
+.menu-bar__container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 999;
+  background-color: #ffffff;
+  width: 100% ;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menu-bar__logo{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.meu-bar__itens{
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.meu-bar__itens >ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.meu-bar__itens > ul >li{
+padding: 5px;
+margin-right: 15px;
+}
+
+.meu-bar__itens > ul >li >a{
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.meu-bar__itens > ul >li >a:hover{
+  color:blue ;
+  transition: 0.7s;
+  cursor: pointer;
+  font-weight: 600;
+}
+.meu-bar__itens > ul >li >a >img{
+  height: 25px;
+}

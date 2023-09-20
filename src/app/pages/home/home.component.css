@@ -1,0 +1,10 @@
+.container__home{
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around; /* espaça os elementos deixando um espaço entre eles */
+  align-items: baseline; /*alinda pela base */
+  flex-wrap: wrap; /*sempre que o card ecede limite */
+  border: 1px solid  red;
+}
